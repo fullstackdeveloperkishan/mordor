@@ -6,7 +6,9 @@
                 <div class="p-4" v-if="selectedCountry.length > 0">Country</div>
                 <div class="p-4">Graph</div>
             </div>
-            <div v-else>Please Start Filtering</div>
+            <div v-else>
+                <div class="p-4">Graph</div>
+            </div>
             <div class="mt-4">
                 <div v-if="selectedBrowser.length > 0">
                 <div class="grid grid-cols-3" v-for="selectedB, index in selectedBrowser" :key="index">
